@@ -1,5 +1,10 @@
 module.exports = {
-  title: '韩志雄的资源',
+  locales: {
+    '/': {
+      lang: 'zh-CN',
+      title: '韩志雄的资源',
+    }
+  },
   themeConfig: {
     nav: [
       { text: 'Css', link: '/Css/' },
@@ -11,6 +16,10 @@ module.exports = {
         { 
           title: 'CSS换行',
           path: '/Css/wordBreak'
+        },
+        { 
+          title: '弹性布局',
+          path: '/Css/flex/'
         },
       ],
       '/JavaScript/': [
