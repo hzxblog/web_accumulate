@@ -19,7 +19,7 @@ module.exports = {
         },
         { 
           title: '弹性布局',
-          path: '/Css/flex/'
+          path: '/Css/Flex/'
         },
       ],
       '/JavaScript/': [

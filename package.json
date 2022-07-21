@@ -11,6 +11,8 @@
   "license": "ISC",
   "repository": "https://github.com/hzxblog/web_accumulate.git",
   "devDependencies": {
+    "sass": "^1.50.1",
+    "sass-loader": "^12.6.0",
     "vuepress": "^1.9.7"
   }
 }
