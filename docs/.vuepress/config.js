@@ -1,4 +1,5 @@
 module.exports = {
+  base: '/web_accumulate/',
   locales: {
     '/': {
       lang: 'zh-CN',
@@ -20,6 +21,10 @@ module.exports = {
         { 
           title: '弹性布局',
           path: '/Css/Flex/'
+        },
+        { 
+          title: 'Grid布局',
+          path: '/Css/Grid/'
         },
       ],
       '/JavaScript/': [

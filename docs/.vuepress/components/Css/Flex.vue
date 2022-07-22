@@ -251,6 +251,7 @@ const props = defineProps(['example'])
   background: #E88024;
   margin: 5px;
   color: #fff;
+  font-size: 2em;
 }
 * {
   box-sizing: border-box;
