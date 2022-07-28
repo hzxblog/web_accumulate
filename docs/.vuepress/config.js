@@ -10,6 +10,12 @@ module.exports = {
     nav: [
       { text: 'Css', link: '/Css/' },
       { text: 'JavaScript', link: '/JavaScript/' },
+      {
+        text: '更多',
+        items: [
+          { text: 'Git常见场景', link: '/Git/' },
+        ]
+      },
       { text: 'GitHub', link: 'https://github.com/hzxblog/web_accumulate' },
     ],
     sidebar: {
