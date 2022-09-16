@@ -8,8 +8,8 @@ module.exports = {
   },
   themeConfig: {
     nav: [
-      { text: 'Css', link: '/Css/' },
-      { text: 'JavaScript', link: '/JavaScript/' },
+      { text: 'Css', link: '/Css/wordBreak' },
+      { text: 'JavaScript', link: '/JavaScript/Promise' },
       {
         text: '更多',
         items: [
@@ -34,7 +34,14 @@ module.exports = {
         },
       ],
       '/JavaScript/': [
-        '',
+        { 
+          title: 'Promise函数',
+          path: '/JavaScript/Promise'
+        },
+        { 
+          title: 'Async await',
+          path: '/JavaScript/Async'
+        },
       ],
     }
   }
